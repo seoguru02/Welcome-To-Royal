@@ -1,0 +1,90 @@
+*{
+	padding: 0px;
+	margin: 0px;
+    font-family: Open Sans,Arial,sans-serif;
+}
+
+		/*---start---Quality--*/
+
+.quality{
+	background-image: url(restaurant-hero-02.jpg);
+	background-repeat: no-repeat;
+	background-attachment: cover;
+	text-align: center;
+	overflow: hidden;
+	font-family: Open Sans,Arial,sans-serif;
+
+	
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.overla{
+	overflow: hidden;
+	padding-bottom:40px;
+	background: linear-gradient(#1b1a1db3 0%,#100f10c9 100%);
+
+}
+
+.food{
+	margin: 80px auto;
+	padding: 0px 105px 0px 105px;
+}
+
+.food h1{
+	color: #fff;
+	font-size: 50px;
+	padding-bottom: 45px;
+	font-weight: 500;
+}
+
+.food p{
+	font-size: 19px;
+    color: #bfbfbf;
+    line-height: 1.8em;
+	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+	padding-bottom: 40px;
+}
+
+.food a{
+	padding: 0.3em 1em;
+    text-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+	color: #fff;
+	letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.ba{
+	border: 2px solid #fff;
+	margin-right: 10px;
+}
+
+.bat{
+	border: 2px solid #C39D63;
+	background: #C39D63;
+}
+
+.ba:hover{
+	background: #666;
+}
+
+			/*---end---Quality--*/
+
+@media (max-width: 960px){
+	.food{
+	margin: auto;
+	padding: 0px;
+}
+}
+
+@media (max-width: 409px){
+	.bat{
+	margin-top: 20px;
+}
+
+
